@@ -1,12 +1,32 @@
+html { font-size: 1rem; }
+
+@media (min-width: 576px) {
+    html { font-size: 1.25rem; }
+}
+@media (min-width: 768px) {
+    html { font-size: 1.5rem; }
+}
+@media (min-width: 992px) {
+    html { font-size: 1.75rem; }
+}
+@media (min-width: 1200px) {
+    html { font-size: 2rem; }
+
 html {
     font-size: 62.5%;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+
 }
 
 body {
-    background-color: hsl(330, 2%, 16%) !important ; 
+    background-color: #222222 !important ; 
     padding-right: 2rem;
     padding-left: 2rem;
+    color: hsl(0, 0%, 100%) !important;
+    font-family: 'Montserrat', sans-serif !important;
+    padding:0;
+    height: 100%;
 
 }
 
@@ -25,8 +45,8 @@ body {
 .navbar{
     margin-bottom: 1rem;
     margin-top: 1rem;
-    background-color: hsl(330, 2%, 16%);
-    font-family: 'Dancing Script', cursive;
+    background-color: #222222;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
 }
 #navbarNavAltMarkup {
@@ -35,14 +55,59 @@ body {
 
 .intro {
     padding-bottom: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    height: auto !important;
     opacity: 0.5 !important;
 }
 
 .introlet{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 4rem;
     width: 90%;
     text-align: center; 
+}
+
+.nature{
+  background-color: #383838 !important;
+  margin-bottom: 2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.people{
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.animal{
+  background-color: #383838 !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.animal2{
+  padding-left: 0.4rem;
+  padding-right: 0.4rem !important;
+  padding-top:0 !important; 
+  margin-bottom: 2.5rem;
+}
+
+p{
+  padding-top: 1.5rem;
+  padding-bottom: 2rem !important;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.w-100 {
+  height: 63rem;
+  object-fit: cover;
+}
+
+.horizon {
+  height: auto !important;
 }
 
 .thumbnail {
@@ -63,8 +128,8 @@ body {
 }
 
 .row>* {
-    background-color: hsl(330, 2%, 16%) ;
-    padding-right: 0 !important;
+    margin-left:auto;
+    background-color: #222222 ;
 }
 .mb-4 .w-100{
     margin-bottom: calc(var(--bs-gutter-x) * .5) !important ;
@@ -151,6 +216,18 @@ body {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
   }
+
+article{
+  background-color:  #f1ead7;
+  margin: 1rem;  
+  display: flex; 
+}
+
+.text-center{
+  width: 100%;
+  color: #222222 !important;
+  font-size: 5rem !important;
+}
 
   
     

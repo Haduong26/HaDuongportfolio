@@ -1,0 +1,88 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+
+}
+
+body {
+    background-color: #222222 !important ; 
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-family: 'Montserrat', sans-serif !important;
+    padding:0;
+    height: 100%;
+
+}
+
+.carousel-caption{
+    position:inherit !important;
+}
+.navbar-brand{
+    font-size: 5rem !important;
+    letter-spacing: 1rem;
+    margin-left: 2rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 2rem !important;
+
+}
+.navbar{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222222;
+}
+
+.card {
+    width: 800px;
+    height: fit-content;
+    background-color: #f1ead7 !important;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+
+.btn {
+    width: 45%;
+}
+
+.name {
+    font-size: 5rem;
+    font-weight: bold
+}
+
+.idd {
+    font-size: 3rem;
+    font-weight: 600
+}
+
+.idd1 {
+    font-size: 3rem
+}
+
+
+.text span {
+    font-size: 3rem;
+    color: #545454;
+    font-weight: 500
+}
+
+
+.date {
+    background-color: #ccc
+}
