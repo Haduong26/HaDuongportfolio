@@ -5,6 +5,31 @@ html {
 
 }
 
+@media (min-width: 135px) {
+    html { font-size: 0.16rem; }
+  }
+  @media (min-width: 250px) {
+    html { font-size: 0.22rem; }
+  }
+  @media (min-width: 340px) {
+    html { font-size: 0.3rem; }
+  }
+  @media (min-width: 450px) {
+    html { font-size: 0.35rem; }
+  }
+  @media (min-width: 576px) {
+    html { font-size: 0.4rem; }
+  }
+  @media (min-width: 768px) {
+    html { font-size: 0.4rem; }
+  }
+  @media (min-width: 992px) {
+    html { font-size: 0.5rem; }
+  }
+  @media (min-width: 1200px) {
+    html { font-size: 0.62rem; }
+  }
+  
 body {
     background-color: #222222 !important ; 
     padding-right: 2rem;
@@ -41,6 +66,16 @@ body {
 #navbarNavAltMarkup {
     justify-content: flex-end;
 }
+
+.navbar-nav{
+    padding-left: 2rem !important;
+    font-size: 3rem;
+  }
+  
+  .navbar-toggler{
+    font-size: 2.5rem !important;
+    margin-right: 1rem;
+  }
 
 *{
     margin: 0;
