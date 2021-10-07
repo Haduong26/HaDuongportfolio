@@ -2,6 +2,7 @@ html {
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
     height: 100%;
+    -webkit-text-size-adjust:100%;
 
 }
 @media (min-width: 135px) {
@@ -31,13 +32,12 @@ html {
 
 body {
     background-color: #222222 !important ; 
-    padding-right: 2rem;
-    padding-left: 2rem;
     color: hsl(0, 0%, 100%) !important;
     font-family: 'Montserrat', sans-serif !important;
     padding:0;
     height: 100%;
-
+    max-width: 1200px;
+    margin: 10px auto !important;
 }
 
 .carousel-caption{
@@ -53,11 +53,13 @@ body {
 
 }
 .navbar{
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
     background-color: #222222;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 
@@ -79,6 +81,8 @@ body {
 
     height: auto !important;
     opacity: 0.5 !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .introlet{
@@ -88,37 +92,47 @@ body {
     text-align: center; 
 }
 
+#canvas{
+  max-width: 970px;
+  margin: 10px auto;
+  padding: 35px;
+}
+
 .nature{
-  background-color: #383838 !important;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-bottom: 4rem;
+  background-color: #222222 !important;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
 }
 
 p.nature{
-  padding-bottom: 0rem !important;
+  padding-left:20rem;
+  padding-right: 20rem;
 }
 
 p.people{
-  padding-top: 1rem !important;
+  padding-top: 10rem !important;
+  padding-bottom:8rem !important;
+  padding-left:20rem;
+  padding-right: 20rem;
 }
 
 .people{
   padding-top: 0rem;
-  margin-bottom: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
 .animal{
-  background-color: #383838 !important;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 3rem;
+  background-color: #222222 !important;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 8rem;
 }
 
 p.animal{
   padding-top: 2rem !important;
+  padding-left:20rem;
+  padding-right: 20rem;
 }
 
 .animalpic{
@@ -127,16 +141,15 @@ p.animal{
 }
 
 .animal2{
-  padding-left: 0.4rem;
+  padding-left: 0rem;
   padding-right: 0.4rem !important;
   padding-top:0 !important; 
-  margin-bottom: 2.5rem;
 }
 
 p{
-  padding-top: 5rem !important;
-  padding-bottom: 3rem !important;
-  font-size: 2.5rem;
+  padding-top: 10rem !important;
+  padding-bottom: 8rem !important;
+  font-size: 2.2rem;
   text-align: center;
 }
 
@@ -170,6 +183,12 @@ p{
     margin-left:auto;
     background-color: #222222 ;
 }
+
+.row{
+  margin-left: 0 !important;
+  margin-right: 0rem !important;
+}
+
 .mb-4 .w-100{
     margin-bottom: calc(var(--bs-gutter-x) * .5) !important ;
 }
@@ -265,7 +284,7 @@ article{
 .text-center{
   width: 100%;
   color: #222222 !important;
-  font-size: 5rem !important;
+  font-size: 3.5rem !important;
 }
 
 ul.socialIcons {
@@ -280,6 +299,9 @@ ul.socialIcons {
   overflow: hidden;
   size: 4rem;
   color: white;
+  margin-left: -2rem !important;
+  margin-right: -2rem !important;
+
 }
     
 .btn2 {
@@ -287,11 +309,11 @@ ul.socialIcons {
   color: #ffffff;
   text-align: center;
   font-size: 3rem;
-  margin: 2rem 1rem;
   transition: 0.3s;
   border-radius: 2rem;
   width: 12%;
-  padding: 3rem;
+  padding-top: 10rem !important;
+  padding-bottom: 2.5rem !important;
 }
 
 .btn2:hover {

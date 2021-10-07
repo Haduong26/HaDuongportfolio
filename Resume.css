@@ -1,0 +1,205 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+
+}
+
+@media (min-width: 135px) {
+    html { font-size: 0.16rem; }
+  }
+  @media (min-width: 250px) {
+    html { font-size: 0.22rem; }
+  }
+  @media (min-width: 340px) {
+    html { font-size: 0.3rem; }
+  }
+  @media (min-width: 450px) {
+    html { font-size: 0.35rem; }
+  }
+  @media (min-width: 576px) {
+    html { font-size: 0.4rem; }
+  }
+  @media (min-width: 768px) {
+    html { font-size: 0.4rem; }
+  }
+  @media (min-width: 992px) {
+    html { font-size: 0.5rem; }
+  }
+  @media (min-width: 1200px) {
+    html { font-size: 0.62rem; }
+  }
+  
+body {
+    background-color: #222222 !important ; 
+    font-family: 'Montserrat', sans-serif !important;
+    padding:0;
+    height: 100%;
+    max-width: 1200px;
+    margin: 10px auto !important;
+}
+
+.navbar-brand{
+    font-size: 5rem !important;
+    letter-spacing: 1rem;
+    margin-left: 2rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 2rem !important;
+
+}
+.navbar{
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    background-color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+}
+
+.navbar-nav{
+    padding-left: 2rem !important;
+    font-size: 3rem;
+  }
+  
+  .navbar-toggler{
+    font-size: 2.5rem !important;
+    margin-right: 1rem;
+  }
+
+  .profilepic{
+      height: 53rem !important;
+      padding-left: 7rem;
+      padding-bottom: 4.5rem;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#resume {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+}
+
+.row>* {
+    padding-right: 4rem !important;
+    padding-left: 4rem !important;
+    padding-top: 6rem;
+    height: fit-content;
+    padding-bottom: 8rem;
+}
+
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto; 
+    background-color: #f1ead7;
+}
+
+    .resume .resume-title {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+      }
+
+      .resume .resume-item {
+        padding: 0 0 2rem 2rem;
+        margin-top: 2rem;
+        border-left: 0.5rem solid #383838;
+        position: relative;
+      }
+      .resume .resume-item h4 {
+        line-height: 2rem;
+        font-size: 2rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 1.5rem;
+      }
+      .resume .resume-item h5 {
+        font-size: 1.5rem;
+        color: #f1ead7 !important;
+        background: #383838;
+        padding: 5px 15px;
+        display: inline-block;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+      .resume .resume-item ul {
+        padding-left: 2rem;
+      }
+      .resume .resume-item ul li {
+        padding-bottom: 1.5rem;
+      }
+      .resume .resume-item:last-child {
+        padding-bottom: 0;
+      }
+      .resume .resume-item::before {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 50px;
+        left: -9px;
+        top: 0;
+        background: #fff;
+        border: 2px solid #383838;
+      }
+
+      li{
+          font-size: 1.5rem;
+      }
+
+      p{
+        font-size: 1.5rem;
+    }
+
+    ul.socialIcons {
+        padding: 0;
+        text-align: center;
+      }
+      
+      .socialIcons li {
+        list-style: none;
+        display: inline-block;
+        margin: 0.5rem;
+        overflow: hidden;
+        size: 4rem;
+        color: white;
+        margin-left: -2rem !important;
+        margin-right: -2rem !important;
+      
+      }
+          
+      .btn2 {
+        border: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 3rem;
+        transition: 0.3s;
+        border-radius: 2rem;
+        width: 12%;
+        padding-top: 10rem !important;
+        padding-bottom: 2.5rem !important;
+      }
+      
+      .btn2:hover {
+         opacity: 0.5;
+      } 
+      
+       .fa-google {
+        color: white;
+      }
+      
+      .fa-instagram {
+        color: white;
+      }
+      
+      .fa-github {
+        color: white;
+      }
