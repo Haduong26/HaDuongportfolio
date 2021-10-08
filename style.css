@@ -105,6 +105,7 @@ body {
 }
 
 p.nature{
+  padding-top: 10rem !important;
   padding-left:20rem;
   padding-right: 20rem;
 }
@@ -147,7 +148,6 @@ p.animal{
 }
 
 p{
-  padding-top: 10rem !important;
   padding-bottom: 8rem !important;
   font-size: 2.2rem;
   text-align: center;
@@ -259,6 +259,7 @@ p{
   
   .hovereffect a, .hovereffect p {
     color: #FFF;
+    font-size: 1.7rem !important;
     padding: 1em 0;
     opacity: 0;
     filter: alpha(opacity=0);
