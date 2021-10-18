@@ -34,40 +34,6 @@ body {
     margin-right: 10px auto !important;
 }
 
-.navbar-brand{
-    color: #222222 !important;
-    font-size: 5rem !important;
-    letter-spacing: 1rem;
-    margin-left: 2rem;
-}
-.navbar-expand-lg .navbar-nav .nav-link{
-    color: #222222 !important;
-    padding-right: 2rem !important;
-}
-.navbar{
-    margin-bottom: 3rem;
-    margin-top: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    margin-left: 11.43rem !important;
-    margin-right: 11.43rem !important;
-
-}
-#navbarNavAltMarkup {
-    justify-content: flex-end;
-}
-
-.navbar-nav{
-    padding-left: 2rem !important;
-    font-size: 3rem;
-  }
-  
-  .navbar-toggler{
-    color: #222222 !important;
-    font-size: 2.5rem !important;
-    margin-right: 1rem;
-  }
-
 .hero {
     position: relative;
   }
@@ -86,21 +52,21 @@ body {
   .hero .hero-title {
     color: white;
     font-weight: 600;
-    font-size: 5.5rem;
+    font-size: 7rem;
   }
   @media (min-width: 768px) {
     .hero .hero-title {
-      font-size: 5.5rem;
+      font-size: 7rem;
     }
   }
   .hero .hero-subtitle {
-    font-size: 3.5rem;
+    font-size: 5rem;
     font-weight: 600;
     color: white;
   }
   @media (min-width: 768px) {
     .hero .hero-subtitle {
-      font-size: 3.5rem;
+      font-size: 5em;
     }
   }
   .hero .text-slider-items {
@@ -120,7 +86,7 @@ body {
   }
   @media (min-width: 768px) {
     .hero-single .hero-title {
-      font-size: 3.5rem;
+      font-size: 5rem;
     }
   }
  
@@ -185,16 +151,16 @@ body {
   }
   @media (min-width: 768px) {
     .hero .hero-title {
-      font-size: 5.5rem;
+      font-size: 7rem;
     }
   }
   .hero .hero-subtitle {
-    font-size: 1.5rem;
+    font-size: 4rem;
     font-weight: 600;
   }
   @media (min-width: 768px) {
     .hero .hero-subtitle {
-      font-size: 3.5rem;
+      font-size: 5rem;
     }
   }
   .hero .text-slider-items {
@@ -213,13 +179,13 @@ body {
   }
   @media (min-width: 768px) {
     .hero-single .hero-title {
-      font-size: 3.5rem;
+      font-size: 5rem;
     }
   }
  
   .btn {
-    line-height: 5rem !important;
-    font-size: 2rem !important;
+    line-height: 7rem !important;
+    font-size: 4rem !important;
     border-radius: 1.3rem !important;
     width: 15%; 
 }
