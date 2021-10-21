@@ -204,7 +204,6 @@ body {
 
   #hero::before {    
     content: "";
-    background-image: url('000006.JPG');
     background-color: black;
     background-size: cover;
     position: absolute;
@@ -212,6 +211,6 @@ body {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.35;
+    opacity: 0.5;
     z-index: 0;
 }
