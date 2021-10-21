@@ -115,6 +115,10 @@ body {
     background-position: center center;
   }
 
+  #hero {
+    filter: blur(4px);
+
+  }
   .overlay-mf {
     position: absolute;
     top: 0;
@@ -146,6 +150,7 @@ body {
   }
 
   .hero .hero-title {
+    padding-right: 15rem;
     font-weight: 600;
     font-size: 3rem;
   }
@@ -155,6 +160,7 @@ body {
     }
   }
   .hero .hero-subtitle {
+    padding-right: 15rem;
     font-size: 4rem;
     font-weight: 600;
   }
@@ -184,9 +190,28 @@ body {
   }
  
   .btn {
+    margin-right: 15rem !important;
     line-height: 7rem !important;
     font-size: 4rem !important;
     border-radius: 1.3rem !important;
     width: 15%; 
 }
   * { color:white; text-decoration: none;}
+
+  #hero {
+  background-color: #000;
+}
+
+  #hero::before {    
+    content: "";
+    background-image: url("000006.JPG");
+    background-color: black;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.35;
+    z-index: 0;
+}
