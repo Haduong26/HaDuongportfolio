@@ -52,15 +52,16 @@ body {
   .hero .hero-title {
     color: white;
     font-weight: 600;
-    font-size: 7rem;
+    font-size: 5.5rem;
+    margin-top: 2rem !important;
   }
   @media (min-width: 768px) {
     .hero .hero-title {
-      font-size: 7rem;
+      font-size: 5.5rem;
     }
   }
   .hero .hero-subtitle {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 600;
     color: white;
   }
@@ -91,6 +92,7 @@ body {
   }
  
   .typewrite {
+    font-family: 'Montserrat', sans-serif !important;
     color: white;
     text-decoration: none;
   }
@@ -150,17 +152,16 @@ body {
   }
 
   .hero .hero-title {
-    padding-right: 15rem;
     font-weight: 600;
-    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif !important;
   }
   @media (min-width: 768px) {
     .hero .hero-title {
-      font-size: 7rem;
+      font-size: 5.8rem;
     }
   }
   .hero .hero-subtitle {
-    padding-right: 15rem;
+    font-family: 'Montserrat', sans-serif !important;
     font-size: 4rem;
     font-weight: 600;
   }
@@ -190,11 +191,11 @@ body {
   }
  
   .btn {
-    margin-right: 15rem !important;
-    line-height: 7rem !important;
-    font-size: 4rem !important;
+    line-height: 5.5rem !important;
+    font-size: 3rem !important;
     border-radius: 1.3rem !important;
     width: 15%; 
+    font-family: 'Montserrat', sans-serif !important;
 }
   * { color:white; text-decoration: none;}
 
